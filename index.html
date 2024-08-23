@@ -1,314 +1,715 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animasi Blooming Flower By X-TKJ(SMK Al-Masturiyah)</title>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>☠️ Cek Khodam ☠️</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10">
     <style>
-        body {
-            background-color: rgba(144, 0, 0, 1); /* Background lebih gelap */
-            font-family: 'Poppins', sans-serif; /* Font modern Poppins */
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            padding: 20px;
-            min-height: 100vh;
-            margin: 0;
-            box-sizing: border-box;
-            text-align: center;
-        }
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
-        .card {
-            background-color: #442A2A;
-            padding: 20px;
-            border: 1px solid #4A1C1C; /* Border merah*/
-            border-radius: 10px;
-            width: 100%;
-            max-width: 500px;
-            box-shadow: 0 4px 8px rgba(15, 0, 255, 1); /* Shadow lebih gelap */
-            backdrop-filter: blur(10px); /* Blur lebih kuat */
-            position: relative; /* Untuk positioning spinner */
-        }
+      *,
+      *::after,
+      *::before {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
 
-        h1, p {
-            color: #E00000;/* Warna font merah*/
-            margin-bottom: 20px;
-        }
+      :root {
+        --dark-color: #000;
+      }
 
-        input[type="text"] {
-            padding: 10px;
-            font-size: 16px;
-            border: 2px solid #FF0000; /* Border input */
-            border-radius: 200px;
-            text-align: center;
-            width: 80%;
-            margin-bottom: 20px;
-            background-color: transparent;
-            color: #FFFFFF;
-        }
+      body {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        min-height: 100vh;
+        background-color: var(--dark-color);
+        overflow: hidden;
+        perspective: 1000px;
+      }
+      
+      .title {
+        position: absolute;
+        top: 30px;
+        font-size: 45px;
+        color: white;
+        z-index: 999;
+        font-family: 'Poppins', sans-serif;
+      }
+      
+      .reloadBtn {
+        position: absolute;
+        top: 110px;
+        z-index: 999;
+        padding: 8px 30px;
+        font-size: 18px;
+        font-family: 'Poppins', sans-serif;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+      }
 
-        button {
-            background-color: #C60000;
-            color: #ffffff;
-            padding: 10px 25px;
-            font-size: 16px;
-            border: none;
-            border-radius: 200px;
-            cursor: pointer;
-            transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
-        }
+      .reloadBtn:hover {
+        background-color: #eaeaea;
+      }
+      
+      .night {
+        position: fixed;
+        left: 50%;
+        top: 0;
+        transform: translateX(-50%);
+        width: 100%;
+        height: 100%;
+        filter: blur(0.1vmin);
+        background-image: radial-gradient(
+            ellipse at top,
+            transparent 0%,
+            var(--dark-color)
+          ),
+          radial-gradient(
+            ellipse at bottom,
+            var(--dark-color),
+            rgba(145, 233, 255, 0.2)
+          ),
+          repeating-linear-gradient(
+            220deg,
+            black 0px,
+            black 19px,
+            transparent 19px,
+            transparent 22px
+          ),
+          repeating-linear-gradient(
+            189deg,
+            black 0px,
+            black 19px,
+            transparent 19px,
+            transparent 22px
+          ),
+          repeating-linear-gradient(
+            148deg,
+            black 0px,
+            black 19px,
+            transparent 19px,
+            transparent 22px
+          ),
+          linear-gradient(90deg, #00fffa, #f0f0f0);
+      }
 
-        button:hover {
-            background-color: #2A00C6;
-            transform: translateY(-3px); /* Efek naik saat hover */
-            box-shadow: 0 6px 12px rgba(198, 0, 0, 1); /* Shadow lebih dalam saat hover */
-        }
+      .flowers {
+        position: relative;
+        transform: scale(0.9);
+      }
 
-        .footer {
-            color: #97D3FF;
-            font-weight: bold;
-            position: absolute;
-            bottom: 10px;
-            width: 100%;
-            text-align: center;
+      .flower {
+        position: absolute;
+        bottom: 10vmin;
+        transform-origin: bottom center;
+        z-index: 10;
+        --fl-speed: 0.8s;
+      }
+      .flower--1 {
+        animation: moving-flower-1 4s linear infinite;
+      }
+      .flower--1 .flower__line {
+        height: 70vmin;
+        animation-delay: 0.3s;
+      }
+      .flower--1 .flower__line__leaf--1 {
+        animation: blooming-leaf-right var(--fl-speed) 1.6s backwards;
+      }
+      .flower--1 .flower__line__leaf--2 {
+        animation: blooming-leaf-right var(--fl-speed) 1.4s backwards;
+      }
+      .flower--1 .flower__line__leaf--3 {
+        animation: blooming-leaf-left var(--fl-speed) 1.2s backwards;
+      }
+      .flower--1 .flower__line__leaf--4 {
+        animation: blooming-leaf-left var(--fl-speed) 1s backwards;
+      }
+      .flower--1 .flower__line__leaf--5 {
+        animation: blooming-leaf-right var(--fl-speed) 1.8s backwards;
+      }
+      .flower--1 .flower__line__leaf--6 {
+        animation: blooming-leaf-left var(--fl-speed) 2s backwards;
+      }
+      .flower--2 {
+        left: 50%;
+        transform: rotate(20deg);
+        animation: moving-flower-2 4s linear infinite;
+      }
+      .flower--2 .flower__line {
+        height: 60vmin;
+        animation-delay: 0.6s;
+      }
+      .flower--2 .flower__line__leaf--1 {
+        animation: blooming-leaf-right var(--fl-speed) 1.9s backwards;
+      }
+      .flower--2 .flower__line__leaf--2 {
+        animation: blooming-leaf-right var(--fl-speed) 1.7s backwards;
+      }
+      .flower--2 .flower__line__leaf--3 {
+        animation: blooming-leaf-left var(--fl-speed) 1.5s backwards;
+      }
+      .flower--2 .flower__line__leaf--4 {
+        animation: blooming-leaf-left var(--fl-speed) 1.3s backwards;
+      }
+      .flower--3 {
+        left: 50%;
+        transform: rotate(-15deg);
+        animation: moving-flower-3 4s linear infinite;
+      }
+      .flower--3 .flower__line {
+        animation-delay: 0.9s;
+      }
+      .flower--3 .flower__line__leaf--1 {
+        animation: blooming-leaf-right var(--fl-speed) 2.5s backwards;
+      }
+      .flower--3 .flower__line__leaf--2 {
+        animation: blooming-leaf-right var(--fl-speed) 2.3s backwards;
+      }
+      .flower--3 .flower__line__leaf--3 {
+        animation: blooming-leaf-left var(--fl-speed) 2.1s backwards;
+      }
+      .flower--3 .flower__line__leaf--4 {
+        animation: blooming-leaf-left var(--fl-speed) 1.9s backwards;
+      }
+      .flower__leafs {
+        position: relative;
+        animation: blooming-flower 2s backwards;
+      }
+      .flower__leafs--1 {
+        animation-delay: 1.1s;
+      }
+      .flower__leafs--2 {
+        animation-delay: 1.4s;
+      }
+      .flower__leafs--3 {
+        animation-delay: 1.7s;
+      }
+      .flower__leafs::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        transform: translate(-50%, -100%);
+        width: 8vmin;
+        height: 8vmin;
+        background-color: #6bf0ff;
+        filter: blur(10vmin);
+      }
+      .flower__leaf {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        width: 8vmin;
+        height: 11vmin;
+        border-radius: 51% 49% 47% 53%/44% 45% 55% 69%;
+        background-color: #a7ffee;
+        background-image: linear-gradient(to top, #54b8aa, #a7ffee);
+        transform-origin: bottom center;
+        opacity: 0.9;
+        box-shadow: inset 0 0 2vmin rgba(255, 255, 255, 0.5);
+      }
+      .flower__leaf--1 {
+        transform: translate(-10%, 1%) rotateY(40deg) rotateX(-50deg);
+      }
+      .flower__leaf--2 {
+        transform: translate(-50%, -4%) rotateX(40deg);
+      }
+      .flower__leaf--3 {
+        transform: translate(-90%, 0%) rotateY(45deg) rotateX(50deg);
+      }
+      .flower__leaf--4 {
+        width: 8vmin;
+        height: 8vmin;
+        transform-origin: bottom left;
+        border-radius: 4vmin 10vmin 4vmin 4vmin;
+        transform: translate(0%, 18%) rotateX(70deg) rotate(-43deg);
+        background-image: linear-gradient(to top, #39c6d6, #a7ffee);
+        z-index: 1;
+        opacity: 0.8;
+      }
+      .flower__white-circle {
+        position: absolute;
+        left: -3.5vmin;
+        top: -3vmin;
+        width: 9vmin;
+        height: 4vmin;
+        border-radius: 50%;
+        background-color: #fff;
+      }
+      .flower__white-circle::after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        top: 45%;
+        transform: translate(-50%, -50%);
+        width: 60%;
+        height: 60%;
+        border-radius: inherit;
+        background-image: repeating-linear-gradient(
+            135deg,
+            rgba(0, 0, 0, 0.03) 0px,
+            rgba(0, 0, 0, 0.03) 1px,
+            transparent 1px,
+            transparent 12px
+          ),
+          repeating-linear-gradient(
+            45deg,
+            rgba(0, 0, 0, 0.03) 0px,
+            rgba(0, 0, 0, 0.03) 1px,
+            transparent 1px,
+            transparent 12px
+          ),
+          repeating-linear-gradient(
+            67.5deg,
+            rgba(0, 0, 0, 0.03) 0px,
+            rgba(0, 0, 0, 0.03) 1px,
+            transparent 1px,
+            transparent 12px
+          ),
+          repeating-linear-gradient(
+            135deg,
+            rgba(0, 0, 0, 0.03) 0px,
+            rgba(0, 0, 0, 0.03) 1px,
+            transparent 1px,
+            transparent 12px
+          ),
+          repeating-linear-gradient(
+            45deg,
+            rgba(0, 0, 0, 0.03) 0px,
+            rgba(0, 0, 0, 0.03) 1px,
+            transparent 1px,
+            transparent 12px
+          ),
+          repeating-linear-gradient(
+            112.5deg,
+            rgba(0, 0, 0, 0.03) 0px,
+            rgba(0, 0, 0, 0.03) 1px,
+            transparent 1px,
+            transparent 12px
+          ),
+          repeating-linear-gradient(
+            112.5deg,
+            rgba(0, 0, 0, 0.03) 0px,
+            rgba(0, 0, 0, 0.03) 1px,
+            transparent 1px,
+            transparent 12px
+          ),
+          repeating-linear-gradient(
+            45deg,
+            rgba(0, 0, 0, 0.03) 0px,
+            rgba(0, 0, 0, 0.03) 1px,
+            transparent 1px,
+            transparent 12px
+          ),
+          repeating-linear-gradient(
+            22.5deg,
+            rgba(0, 0, 0, 0.03) 0px,
+            rgba(0, 0, 0, 0.03) 1px,
+            transparent 1px,
+            transparent 12px
+          ),
+          repeating-linear-gradient(
+            45deg,
+            rgba(0, 0, 0, 0.03) 0px,
+            rgba(0, 0, 0, 0.03) 1px,
+            transparent 1px,
+            transparent 12px
+          ),
+          repeating-linear-gradient(
+            22.5deg,
+            rgba(0, 0, 0, 0.03) 0px,
+            rgba(0, 0, 0, 0.03) 1px,
+            transparent 1px,
+            transparent 12px
+          ),
+          repeating-linear-gradient(
+            135deg,
+            rgba(0, 0, 0, 0.03) 0px,
+            rgba(0, 0, 0, 0.03) 1px,
+            transparent 1px,
+            transparent 12px
+          ),
+          repeating-linear-gradient(
+            157.5deg,
+            rgba(0, 0, 0, 0.03) 0px,
+            rgba(0, 0, 0, 0.03) 1px,
+            transparent 1px,
+            transparent 12px
+          ),
+          repeating-linear-gradient(
+            67.5deg,
+            rgba(0, 0, 0, 0.03) 0px,
+            rgba(0, 0, 0, 0.03) 1px,
+            transparent 1px,
+            transparent 12px
+          ),
+          repeating-linear-gradient(
+            67.5deg,
+            rgba(0, 0, 0, 0.03) 0px,
+            rgba(0, 0, 0, 0.03) 1px,
+            transparent 1px,
+            transparent 12px
+          ),
+          linear-gradient(90deg, #ffeb12, #ffce00);
+      }
+      .flower__line {
+        height: 55vmin;
+        width: 1.5vmin;
+        background-image: linear-gradient(
+            to left,
+            rgba(0, 0, 0, 0.2),
+            transparent,
+            rgba(255, 255, 255, 0.2)
+          ),
+          linear-gradient(to top, transparent 10%, #14757a, #39c6d6);
+        box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.5);
+        animation: grow-flower-tree 4s backwards;
+      }
+      .flower__line__leaf {
+        --w: 7vmin;
+        --h: calc(var(--w) + 2vmin);
+        position: absolute;
+        top: 20%;
+        left: 90%;
+        width: var(--w);
+        height: var(--h);
+        border-top-right-radius: var(--h);
+        border-bottom-left-radius: var(--h);
+        background-image: linear-gradient(
+          to top,
+          rgba(20, 117, 122, 0.4),
+          #39c6d6
+        );
+      }
+      .flower__line__leaf--1 {
+        transform: rotate(70deg) rotateY(30deg);
+      }
+      .flower__line__leaf--2 {
+        top: 45%;
+        transform: rotate(70deg) rotateY(30deg);
+      }
+      .flower__line__leaf--3,
+      .flower__line__leaf--4,
+      .flower__line__leaf--6 {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: var(--h);
+        border-bottom-right-radius: var(--h);
+        left: -460%;
+        top: 12%;
+        transform: rotate(-70deg) rotateY(30deg);
+      }
+      .flower__line__leaf--4 {
+        top: 40%;
+      }
+      .flower__line__leaf--5 {
+        top: 0;
+        transform-origin: left;
+        transform: rotate(70deg) rotateY(30deg) scale(0.6);
+      }
+      .flower__line__leaf--6 {
+        top: -2%;
+        left: -450%;
+        transform-origin: right;
+        transform: rotate(-70deg) rotateY(30deg) scale(0.6);
+      }
+      .flower__light {
+        position: absolute;
+        bottom: 0vmin;
+        width: 1vmin;
+        height: 1vmin;
+        background-color: #fffb00;
+        border-radius: 50%;
+        filter: blur(0.2vmin);
+        animation: light-ans 4s linear infinite backwards;
+      }
+      .flower__light:nth-child(odd) {
+        background-color: #23f0ff;
+      }
+      .flower__light--1 {
+        left: -2vmin;
+        animation-delay: 1s;
+      }
+      .flower__light--2 {
+        left: 3vmin;
+        animation-delay: 0.5s;
+      }
+      .flower__light--3 {
+        left: -6vmin;
+        animation-delay: 0.3s;
+      }
+      .flower__light--4 {
+        left: 6vmin;
+        animation-delay: 0.9s;
+      }
+      .flower__light--5 {
+        left: -1vmin;
+        animation-delay: 1.5s;
+      }
+      .flower__light--6 {
+        left: -4vmin;
+        animation-delay: 3s;
+      }
+      .flower__light--7 {
+        left: 3vmin;
+        animation-delay: 2s;
+      }
+      .flower__light--8 {
+        left: -6vmin;
+        animation-delay: 3.5s;
+      }
+      .flower__grass {
+        --c: #159faa;
+        --line-w: 1.5vmin;
+        position: absolute;
+        bottom: 12vmin;
+        left: -7vmin;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        z-index: 20;
+        transform-origin: bottom center;
+        transform: rotate(-48deg) rotateY(40deg);
+      }
+      .flower__grass--1 {
+        animation: moving-grass 2s linear infinite;
+      }
+      .flower__grass--2 {
+        left: 2vmin;
+        bottom: 10vmin;
+        transform: scale(0.5) rotate(75deg) rotateX(10deg) rotateY(-200deg);
+        opacity: 0.8;
+        z-index: 0;
+        animation: moving-grass--2 1.5s linear infinite;
+      }
+      .flower__grass--top {
+        width: 7vmin;
+        height: 10vmin;
+        border-top-right-radius: 100%;
+        border-right: var(--line-w) solid var(--c);
+        transform-origin: bottom center;
+        transform: rotate(-2deg);
+      }
+      .flower__grass--bottom {
+        margin-top: -2px;
+        width: var(--line-w);
+        height: 25vmin;
+        background-image: linear-gradient(to top, transparent, var(--c));
+      }
+      .flower__grass__leaf {
+        --size: 10vmin;
+        position: absolute;
+        width: calc(var(--size) * 2.1);
+        height: var(--size);
+        border-top-left-radius: var(--size);
+        border-top-right-radius: var(--size);
+        background-image: linear-gradient(
+          to top,
+          transparent,
+          transparent 30%,
+          var(--c)
+        );
+        z-index: 100;
+      }
+      .flower__grass__leaf--1 {
+        top: -6%;
+        left: 30%;
+        --size: 6vmin;
+        transform: rotate(-20deg);
+        animation: growing-grass-ans--1 2s 2.6s backwards;
+      }
+      @keyframes growing-grass-ans--1 {
+        0% {
+          transform-origin: bottom left;
+          transform: rotate(-20deg) scale(0);
         }
-
-        #result {
-            display: none;
+      }
+      .flower__grass__leaf--2 {
+        top: -5%;
+        left: -110%;
+        --size: 6vmin;
+        transform: rotate(10deg);
+        animation: growing-grass-ans--2 2s 2.4s linear backwards;
+      }
+      @keyframes growing-grass-ans--2 {
+        0% {
+          transform-origin: bottom right;
+          transform: rotate(10deg) scale(0);
         }
-
-        .loading-spinner {
-            border: 4px solid rgba(255, 255, 255, 0.3);
-            border-radius: 50%;
-            border-top: 4px solid #0F00FF; /* Warna jingga ke kuningan */
-            width: 40px;
-            height: 40px;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            margin-top: -20px; /* Setengah dari tinggi */
-            margin-left: -20px; /* Setengah dari lebar */
-            animation: spin 1s linear infinite;
+      }
+      .flower__grass__leaf--3 {
+        top: 5%;
+        left: 60%;
+        --size: 8vmin;
+        transform: rotate(-18deg) rotateX(-20deg);
+        animation: growing-grass-ans--3 2s 2.2s linear backwards;
+      }
+      @keyframes growing-grass-ans--3 {
+        0% {
+          transform-origin: bottom left;
+          transform: rotate(-18deg) rotateX(-20deg) scale(0);
         }
-
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
+      }
+      .flower__grass__leaf--4 {
+        top: 6%;
+        left: -135%;
+        --size: 8vmin;
+        transform: rotate(2deg);
+        animation: growing-grass-ans--4 2s 2s linear backwards;
+      }
+      @keyframes growing-grass-ans--4 {
+        0% {
+          transform-origin: bottom right;
+          transform: rotate(2deg) scale(0);
         }
-    </style>
-</head>
-
-<body>
-    <div class="card">
-        <h1>☠️Cek Khodam☠️</h1>
-        <p>Masukkan nama untuk mengetahui khodam Anda</p>
-        <input type="text" id="nameInput" placeholder="Ketik nama kamu di sini">
-        <button onclick="cekKhodam()">Cek Khodam</button>
-        <div id="loading" class="loading-spinner" style="display: none;"></div>
-        <button onclick="resetForm()" style="margin-top: 20px;">Cek Lagi</button>
-        <div id="result">
-            <h2 id="khodamName"></h2>
-            <p id="khodamMeaning"></p>
-        </div>
-    </div>
-    <div class="footer">
-        © 2024 <a target="_blank">近藤Acil</a>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
-    <script>
-        function cekKhodam() {
-            const nameInput = document.getElementById('nameInput').value;
-            if (!nameInput) {
-                Swal.fire({
-                    title: 'GAK BOLEH KOSONG!😡',
-                    icon: 'error',
-                    confirmButtonText: 'OK'
-                });
-                return;
-            }
-            document.getElementById('loading').style.display = 'block'; // Tampilkan spinner
-            setTimeout(() => {
-                const khodams = [
-                { name: "Harimau Putih", meaning: "Kamu kuat dan berani seperti harimau, karena pendahulumu mewariskan kekuatan besar padamu." },
-                { name: "Lampu Tertidur", meaning: "Terlihat ngantuk tapi selalu memberikan cahaya yang hangat" },
-                { name: "Panda Ompong", meaning: "Kamu menggemaskan dan selalu berhasil membuat orang tersenyum dengan keanehanmu." },
-                { name: "Bebek Karet", meaning: "Kamu selalu tenang dan ceria, mampu menghadapi gelombang masalah dengan senyum." },
-                { name: "Ninja Turtle", meaning: "Kamu lincah dan tangguh, siap melindungi yang lemah dengan kekuatan tempurmu." },
-                { name: "Kucing Kulkas", meaning: "Kamu misterius dan selalu ada di tempat-tempat yang tak terduga." },
-                { name: "Sabun Wangi", meaning: "Kamu selalu membawa keharuman dan kesegaran di mana pun kamu berada." },
-                { name: "Semut Kecil", meaning: "Kamu pekerja keras dan selalu bisa diandalkan dalam situasi apa pun." },
-                { name: "Moge Suzuki", meaning: "Kamu cepat dan penuh gaya, selalu menjadi pusat perhatian di jalanan." },
-                { name: "Cupcake Pelangi", meaning: "Kamu manis dan penuh warna, selalu membawa kebahagiaan dan keceriaan." },
-                { name: "Robot Mini", meaning: "Kamu canggih dan selalu siap membantu dengan kecerdasan teknologi tinggi." },
-                { name: "Ikan Terbang", meaning: "Kamu unik dan penuh kejutan, selalu melampaui batasan yang ada." },
-                { name: "Ayam Goreng", meaning: "Kamu selalu disukai dan dinanti oleh banyak orang, penuh kelezatan dalam setiap langkahmu." },
-                { name: "Kecoa Terbang", meaning: "Kamu selalu mengagetkan dan bikin heboh seisi ruangan." },
-                { name: "Kambing Ngebor", meaning: "Kamu unik dan selalu bikin orang tertawa dengan tingkah lakumu yang aneh." },
-                { name: "Kerupuk Renyah", meaning: "Kamu selalu bikin suasana jadi lebih seru dan nikmat." },
-                { name: "Celengan Babi", meaning: "Kamu selalu menyimpan kejutan di dalam dirimu." },
-                { name: "Lemari Tua", meaning: "Kamu penuh dengan cerita dan kenangan masa lalu." },
-                { name: "Kopi Susu", meaning: "Kamu manis dan selalu bikin semangat orang-orang di sekitarmu." },
-                { name: "Sapu Lidi", meaning: "Kamu kuat dan selalu bisa diandalkan untuk membersihkan masalah." },
-                { name: "Kuda Lumping", meaning: "Kamu penuh semangat dan selalu tampil beda di setiap kesempatan." },
-                { name: "Sepatu Roda", meaning: "Kamu cepat dan lincah, selalu bergerak ke depan dengan penuh gaya." },
-                { name: "Bola Pingpong", meaning: "Kamu ringan dan selalu bikin permainan jadi lebih seru." },
-                { name: "Lumba-lumba", meaning: "Kamu pintar dan selalu membawa keceriaan di lautan kehidupan." },
-                { name: "Kucing Gemuk", meaning: "Kamu santai dan selalu bikin orang tersenyum dengan kelucuanmu." },
-                { name: "Iguana Pink", meaning: "Kamu eksotis dan selalu menarik perhatian dengan warnamu yang unik." },
-                { name: "Bantal Guling", meaning: "Kamu nyaman dan selalu dibutuhkan saat waktu istirahat." },
-                { name: "Komputer Jadul", meaning: "Kamu klasik dan penuh dengan pengetahuan di dalam dirimu." },
-                { name: "Kasur Empuk", meaning: "Kamu selalu memberikan kenyamanan dan ketenangan." },
-                { name: "Bola Bekel", meaning: "Kamu kecil tapi selalu memberikan kebahagiaan di setiap permainan." },
-                { name: "Es Krim Pelangi", meaning: "Kamu manis dan penuh warna, selalu menyegarkan hari-hari." },
-                { name: "Biskuit Coklat", meaning: "Kamu selalu bikin ketagihan dengan kelezatanmu yang tak tertahankan." },
-                { name: "Nasi Padang", meaning: "Kamu selalu bikin kenyang dan puas dengan kelezatanmu yang khas." },
-                { name: "Roti Bakar", meaning: "Kamu sederhana tapi selalu bikin orang merasa nyaman." },
-                { name: "Sepeda Ontel", meaning: "Kamu klasik dan selalu memberikan kesenangan di setiap perjalanan." },
-                { name: "Sate Kambing", meaning: "Kamu gurih dan selalu jadi favorit di setiap kesempatan." },
-                { name: "Kue Cubit", meaning: "Kamu kecil tapi selalu bikin orang bahagia dengan rasamu yang enak." },
-                { name: "Bakso Urat", meaning: "Kamu kuat dan selalu memberikan kenikmatan di setiap gigitan." },
-                { name: "Es Kelapa", meaning: "Kamu segar dan selalu bikin adem di saat-saat panas." },
-                { name: "Siomay Bandung", meaning: "Kamu selalu bikin ketagihan dengan rasa khasmu yang lezat." },
-                { name: "Bajigur Hangat", meaning: "Kamu selalu bikin suasana jadi hangat dan nyaman." },
-                { name: "Martabak Manis", meaning: "Kamu penuh kejutan dengan isi yang manis dan nikmat." },
-                { name: "Permen Karet", meaning: "Kamu selalu bikin suasana jadi lebih ceria dengan kenikmatanmu yang kenyal." },
-                { name: "Pisang Goreng", meaning: "Kamu selalu bikin suasana jadi lebih hangat dan nyaman." },
-                { name: "Telur Dadar", meaning: "Kamu sederhana tapi selalu bikin orang puas dengan kelezatanmu." },
-                { name: "Es Buah", meaning: "Kamu segar dan penuh warna, selalu bikin hari jadi lebih ceria." },
-                { name: "Mie Goreng", meaning: "Kamu selalu bikin kenyang dan puas dengan rasamu yang lezat." },
-                { name: "Puding Coklat", meaning: "Kamu manis dan selalu bikin suasana jadi lebih nyaman." },
-                { name: "Gulai Kambing", meaning: "Kamu kaya rasa dan selalu bikin orang ketagihan dengan kelezatanmu." },
-                { name: "Kue Nastar", meaning: "Kamu selalu hadir di saat-saat spesial dengan rasa yang manis dan enak." },
-                { name: "Krupuk Ikan", meaning: "Kamu renyah dan selalu bikin suasana jadi lebih seru." },
-                { name: "Es Teler", meaning: "Kamu segar dan penuh kejutan dengan campuran rasa yang enak." },
-                { name: "Rujak Buah", meaning: "Kamu segar dan selalu bikin suasana jadi lebih hidup dengan rasamu yang pedas dan manis." },
-                { name: "Soto Ayam", meaning: "Kamu selalu bikin hangat dan puas dengan kuahmu yang lezat." },
-                { name: "Tahu Bulat", meaning: "Kamu selalu hadir di momen-momen yang pas dengan rasa yang enak." },
-                { name: "Keripik Singkong", meaning: "Kamu renyah dan selalu bikin suasana jadi lebih seru." },
-                { name: "Kacang Goreng", meaning: "Kamu selalu jadi camilan favorit di setiap kesempatan." },
-                { name: "Tongseng Sapi", meaning: "Kamu kaya rasa dan selalu bikin orang ketagihan dengan kelezatanmu." },
-                { name: "Sate Padang", meaning: "Kamu selalu bikin kenyang dan puas dengan rasa khasmu yang lezat." },
-                { name: "Nasi Uduk", meaning: "Kamu selalu bikin kenyang dan puas dengan rasa gurihmu yang enak." },
-                { name: "Cendol Dawet", meaning: "Kamu segar dan selalu bikin suasana jadi lebih adem di saat-saat panas." },
-                { name: "Onde-onde", meaning: "Kamu selalu hadir di saat-saat spesial dengan rasa yang manis dan enak." },
-                { name: "Kolak Pisang", meaning: "Kamu manis dan selalu bikin suasana jadi lebih hangat dan nyaman." },
-                { name: "Macan Kumbang", meaning: "Kamu misterius dan kuat, seperti macan yang jarang terlihat tapi selalu waspada." },
-                { name: "Kuda Emas", meaning: "Kamu berharga dan kuat, siap untuk berlari menuju kesuksesan." },
-                { name: "Elang Biru", meaning: "Kamu memiliki visi yang tajam dan dapat melihat peluang dari jauh." },
-                { name: "Indomie Goreng", meaning: "Selalu bikin kenyang dan bahagia" },
-                { name: "Es Krim Meleleh", meaning: "Selalu mencairkan suasana dengan rasa manisnya" },
-                { name: "Bakso Ulet", meaning: "Selalu gigih dan bulat dalam menghadapi masalah" },
-                { name: "Lem Super", meaning: "Selalu lengket dalam situasi yang rumit" },
-                { name: "Kecap Manis", meaning: "Selalu memberikan sentuhan manis dalam hidup" },
-                { name: "Sabun Mandi", meaning: "Selalu bersih dan wangi" },
-                { name: "Kopi Tumpah", meaning: "Selalu bersemangat, tapi kadang berantakan" },
-                { name: "Sepeda Ontel", meaning: "Selalu klasik dan sederhana" },
-                { name: "Roti Bakar", meaning: "Selalu hangat dan enak" },
-                { name: "Kucing Kampung", meaning: "Selalu mandiri dan penuh petualangan" },
-                { name: "Jamu Pahit", meaning: "Selalu memberi kekuatan meski tak enak di awal" },
-                { name: "Teh Celup", meaning: "Selalu memberikan rasa hangat di hati" },
-                { name: "Tas Kresek", meaning: "Selalu ringan dan praktis" },
-                { name: "Es Kelapa", meaning: "Selalu segar dan menyegarkan" },
-                { name: "Motor Astrea", meaning: "Selalu setia dan bandel" },
-                { name: "Mie Instan", meaning: "Selalu cepat dan mengenyangkan" },
-                { name: "Bolu Kukus", meaning: "Selalu lembut dan manis" },
-                { name: "Tahu Bulat", meaning: "Selalu enak di segala suasana" },
-                { name: "Nasi Uduk", meaning: "Selalu cocok di segala waktu" },
-                { name: "Susu Kental Manis", meaning: "Selalu menambah kenikmatan" },
-                { name: "Kopi Hitam", meaning: "Selalu memberi semangat di pagi hari" },
-                { name: "Kacang Goreng", meaning: "Selalu asyik untuk ngemil" },
-                { name: "Ayam Goreng Tepung", meaning: "Selalu renyah dan nikmat" },
-                { name: "Sambal Terasi", meaning: "Selalu pedas dan menggigit" },
-                { name: "Ketoprak", meaning: "Selalu mengenyangkan dan lezat" },
-                { name: "Cendol Dawet", meaning: "Selalu segar di siang hari" },
-                { name: "Gado-Gado", meaning: "Selalu penuh warna dan rasa" },
-                { name: "Pisang Goreng", meaning: "Selalu manis dan gurih" },
-                { name: "Martabak Manis", meaning: "Selalu lezat dan memanjakan lidah" },
-                { name: "Bubur Ayam", meaning: "Selalu hangat dan mengenyangkan" },
-                { name: "Soto Ayam", meaning: "Selalu kaya rasa dan gurih" },
-                { name: "Nasi Padang", meaning: "Selalu penuh dengan kenikmatan" },
-                { name: "Rendang Daging", meaning: "Selalu empuk dan kaya rempah" },
-                { name: "Nasi Goreng", meaning: "Selalu praktis dan enak" },
-                { name: "Bakmi Jawa", meaning: "Selalu menggugah selera" },
-                { name: "Sate Ayam", meaning: "Selalu enak di segala acara" },
-                { name: "Gulai Kambing", meaning: "Selalu kaya rasa dan lezat" },
-                { name: "Rawon Sapi", meaning: "Selalu hitam dan nikmat" },
-                { name: "Ikan Bakar", meaning: "Selalu gurih dan enak" },
-                { name: "Pepes Tahu", meaning: "Selalu lezat dan bergizi" },
-                { name: "Tempe Mendoan", meaning: "Selalu gurih dan renyah" },
-                { name: "Keripik Singkong", meaning: "Selalu renyah dan menggoda" },
-                { name: "Jus Alpukat", meaning: "Selalu segar dan menyehatkan" },
-                { name: "Es Teler", meaning: "Selalu segar dan nikmat" },
-                { name: "Bubur Kacang Hijau", meaning: "Selalu hangat dan mengenyangkan" },
-                { name: "Bakpao", meaning: "Selalu lembut dan enak" },
-                { name: "Pempek", meaning: "Selalu gurih dan kenyal" },
-                { name: "Sosis Bakar", meaning: "Selalu enak di segala suasana" },
-                { name: "Lumpia Semarang", meaning: "Selalu gurih dan nikmat" },
-                { name: "Otak-Otak", meaning: "Selalu enak dan gurih" },
-                { name: "Pastel", meaning: "Selalu renyah dan nikmat" },
-                { name: "Cilok", meaning: "Selalu kenyal dan enak" },
-                { name: "Bakwan Jagung", meaning: "Selalu gurih dan lezat" },
-                { name: "Risol", meaning: "Selalu renyah dan enak" },
-                { name: "Combro", meaning: "Selalu gurih dan pedas" },
-                { name: "Getuk", meaning: "Selalu manis dan kenyal" },
-                { name: "Tape Singkong", meaning: "Selalu manis dan segar" },
-                { name: "Wedang Jahe", meaning: "Selalu hangat dan menenangkan" },
-                { name: "Dawet Ayu", meaning: "Selalu segar dan menggoda" },
-                { name: "Es Buah", meaning: "Selalu segar dan penuh warna" },
-                { name: "Es Doger", meaning: "Selalu manis dan menyegarkan" },
-                { name: "Tengkleng", meaning: "Selalu gurih dan enak" },
-                { name: "Gulai Nangka", meaning: "Selalu kaya rasa dan lezat" },
-                { name: "Coto Makassar", meaning: "Selalu gurih dan nikmat" },
-                { name: "Nasi Liwet", meaning: "Selalu enak dan mengenyangkan" },
-                { name: "Bubur Sumsum", meaning: "Selalu lembut dan manis" },
-                { name: "Kue Cubit", meaning: "Selalu manis dan lembut" },
-                { name: "Bolu Pandan", meaning: "Selalu harum dan enak" },
-                { name: "Onde-Onde", meaning: "Selalu kenyal dan manis" },
-                { name: "Serabi Solo", meaning: "Selalu lembut dan gurih" },
-                { name: "Lemper Ayam", meaning: "Selalu gurih dan lezat" },
-                { name: "Kue Lumpur", meaning: "Selalu lembut dan manis" },
-                { name: "Kue Lapis", meaning: "Selalu warna-warni dan manis" },
-                { name: "Kue Putu", meaning: "Selalu hangat dan manis" },
-                { name: "Es Pisang Ijo", meaning: "Selalu segar dan manis" },
-                { name: "Klepon", meaning: "Selalu manis dan kenyal" },
-                { name: "Martabak Telur", meaning: "Selalu gurih dan enak" },
-                { name: "Ayam Penyet", meaning: "Selalu pedas dan menggigit" },
-                { name: "Ikan Asin", meaning: "Selalu gurih dan asin" },
-                { name: "Sop Buntut", meaning: "Selalu kaya rasa dan nikmat" },
-                { name: "Bakso Malang", meaning: "Selalu gurih dan lezat" },
-                { name: "Pempek Palembang", meaning: "Selalu enak dan gurih" },
-                { name: "Tahu Gejrot", meaning: "Selalu pedas dan segar" },
-                { name: "Gepuk Daging", meaning: "Selalu empuk dan lezat" },
-                { name: "Ayam Betutu", meaning: "Selalu kaya bumbu dan enak" },
-                { name: "Ikan Gurame", meaning: "Selalu gurih dan nikmat" },
-                { name: "Udang Goreng", meaning: "Selalu renyah dan enak" },
-                { name: "Cumi Saus Tiram", meaning: "Selalu gurih dan lezat" },
-                { name: "Royco Ayam", meaning: "Selalu menambah rasa gurih pada setiap kesempatan" },
-                { name: "Honda Supra", meaning: "Selalu bisa diandalkan di jalanan" },
-                { name: "Kompor Meledak", meaning: "Selalu memberikan kehangatan yang luar biasa" },
-                { name: "Es Batu Menangis", meaning: "Selalu mencair di saat yang tak terduga" },
-                { name: "Teh Botol Sosro", meaning: "Selalu segar di segala suasana" },
-                { name: "Payung Bocor", meaning: "Selalu memberikan kejutan saat hujan" },
-                { name: "Kursi Tertawa", meaning: "Selalu membuatmu nyaman dengan gayanya yang lucu" }
-                // Tambahkan khodam lainnya sesuai kebutuhan
-                ];
-                const khodam = khodams[Math.floor(Math.random() * khodams.length)];
-                document.getElementById('khodamName').innerText = `Khodam: ${khodam.name}`;
-                document.getElementById('khodamMeaning').innerText = khodam.meaning;
-                document.getElementById('result').style.display = 'block';
-                document.getElementById('loading').style.display = 'none'; // Sembunyikan spinner
-            }, 2000); // Delay untuk simulasi loading
+      }
+      .flower__grass__leaf--5 {
+        top: 20%;
+        left: 60%;
+        --size: 10vmin;
+        transform: rotate(-24deg) rotateX(-20deg);
+        animation: growing-grass-ans--5 2s 1.8s linear backwards;
+      }
+      @keyframes growing-grass-ans--5 {
+        0% {
+          transform-origin: bottom left;
+          transform: rotate(-24deg) rotateX(-20deg) scale(0);
         }
-
-        function resetForm() {
-            document.getElementById('nameInput').value = '';
-            document.getElementById('result').style.display = 'none';
+      }
+      .flower__grass__leaf--6 {
+        top: 22%;
+        left: -180%;
+        --size: 10vmin;
+        transform: rotate(10deg);
+        animation: growing-grass-ans--6 2s 1.6s linear backwards;
+      }
+      @keyframes growing-grass-ans--6 {
+        0% {
+          transform-origin: bottom right;
+          transform: rotate(10deg) scale(0);
         }
-    </script>
-</body>
-
-</html>
+      }
+      .flower__grass__leaf--7 {
+        top: 39%;
+        left: 70%;
+        --size: 10vmin;
+        transform: rotate(-10deg);
+        animation: growing-grass-ans--7 2s 1.4s linear backwards;
+      }
+      @keyframes growing-grass-ans--7 {
+        0% {
+          transform-origin: bottom left;
+          transform: rotate(-10deg) scale(0);
+        }
+      }
+      .flower__grass__leaf--8 {
+        top: 40%;
+        left: -215%;
+        --size: 11vmin;
+        transform: rotate(10deg);
+        animation: growing-grass-ans--8 2s 1.2s linear backwards;
+      }
+      @keyframes growing-grass-ans--8 {
+        0% {
+          transform-origin: bottom right;
+          transform: rotate(10deg) scale(0);
+        }
+      }
+      .flower__grass__overlay {
+        position: absolute;
+        top: -10%;
+        right: 0%;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.6);
+        filter: blur(1.5vmin);
+        z-index: 100;
+      }
+      .flower__g-long {
+        --w: 2vmin;
+        --h: 6vmin;
+        --c: #159faa;
+        position: absolute;
+        bottom: 10vmin;
+        left: -3vmin;
+        transform-origin: bottom center;
+        transform: rotate(-30deg) rotateY(-20deg);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        animation: flower-g-long-ans 3s linear infinite;
+      }
+      @keyframes flower-g-long-ans {
+        0%,
+        100% {
+          transform: rotate(-30deg) rotateY(-20deg);
+        }
+        50% {
+          transform: rotate(-32deg) rotateY(-20deg);
+        }
+      }
+      .flower__g-long__top {
+        top: calc(var(--h) * -1);
+        width: calc(var(--w) + 1vmin);
+        height: var(--h);
+        border-top-right-radius: 100%;
+        border-right: 0.7vmin solid var(--c);
+        transform: translate(-0.7vmin, 1vmin);
+      }
+      .flower__g-long__bottom {
+        width: var(--w);
+        height: 50vmin;
+        transform-origin: bottom center;
+        background-image: linear-gradient(to top, transparent 30%, var(--c));
+        box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.5);
+        clip-path: polygon(35% 0, 65% 1%, 100% 100%, 0% 100%);
+      }
+      .flower__g-right {
+        position: absolute;
+        bottom: 6vmin;
+        left: -2vmin;
+        transform-origin: bottom left;
+        transform: rotate(20deg);
+      }
+      .flower__g-right .leaf {
+        width: 30vmin;
+        height: 50vmin;
+        border-top-left-radius: 100%;
+        border-left: 2vmin solid #079097;
+        background-image: linear-gradient(
+          to bottom,
+          transparent,
+          var(--dark-color) 60%
+        );
+        -webkit-mask-image: linear-gradient(
+          to top,
+          transparent 30%,
+          #079097 60%
+        );
+      }
+      .flower__g-right--1 {
+        animation: flower-g-right-ans 2.5s linear infinite;
+      }
+      .flower__g-right--2 {
+        left: 5vmin;
+        transform: rotateY(-180deg);
+        animation: flower-g-right-ans--2 3s linear infinite;
+      }
+      .flower__g-right--2 .leaf {
+        height: 75vmin;
+        filter: blur(0.3vmin);
+        opacity: 0.8;
+      }
+      @keyframes flower-g-right-ans {
+        0%,
+        100% {
+          transform: rotate(20deg);
+        }
+        50% {
+          transform: rotate(24deg) rotateX(-20deg);
+        }
+      
