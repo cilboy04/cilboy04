@@ -1,0 +1,10 @@
+[
+    {
+        "displayName": "Acil",
+        "vcard": "BEGIN:VCARD\nVERSION:3.0\nFN:Acil\nN:Acil;;;\nTEL;waid=6285175414118:6285175414118\nEMAIL;TYPE=WORK:aceline04@yorizxeone.com\nADR;TYPE=HOME:;;261 Shinjōnakachō;Nagahama;Shiga 526-0012;Jepang\nURL;TYPE=WORK:https:/github.com/cilboy04\nORG:WhatsApp botz developer\nTITLE:Creating Useful WhatsApp Botz\nNOTE:solitude is my pleasure.\nEND:VCARD"
+    },
+    {
+        "displayName": "AceLineBotz",
+        "vcard": "BEGIN:VCARD\nVERSION:3.0\nFN:AceLineBotz\nN:AceLine;;;\nTEL;waid=6285175414118:6285175414118\nEMAIL;TYPE=WORK:acelinebotz001@mybotzwhatsapp.com\nADR;TYPE=HOME:;;33 Fukakusa Hiratachō;Fushimi Ward;Kyoto 612-0019;Jepang\nURL;TYPE=WORK:https://github.com/cilboy04\nORG:BOTz AceLine\nTITLE:BotWhatsApp\nNOTE:Support kami yah🥰\nEND:VCARD"
+    }
+]
