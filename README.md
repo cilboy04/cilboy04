@@ -35,6 +35,7 @@
   <b>Engineer 🚀 | Developer🧑‍💻 | Tech Enthusiast 💡</b>
 </p>
 
+<h3 align="left">Languages:</h3>
 <p align="center">
   <img src="https://img.shields.io/badge/-ESP32-blue?style=for-the-badge&logo=esp32" alt="ESP32" />
   <img src="https://img.shields.io/badge/-FreeRTOS-blue?style=for-the-badge&logo=rtos" alt="FreeRTOS" />
@@ -44,7 +45,9 @@
   <img src="https://img.shields.io/badge/-Javascript-yellow?style=for-the-badge&logo=javascript" alt="JS" />
   <img src="https://img.shields.io/badge/-Docker-blue?style=for-the-badge&logo=docker" alt="Docker" />
 </p>
----
+<h3 align="left">Tools:</h3>
+<p align="left"> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://reactnative.dev/" target="_blank" rel="noreferrer"> <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40" height="40"/> </a> </p>
+
 <h3 align="left">Support:</h3>
 <p><a href="https://www.buymeacoffee.com/buycoffe"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="buycoffe" /></a><a href="https://ko-fi.com/ko-fi acil"> <img align="left" src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="ko-fi acil" /></a></p><br><br>
 <!---
