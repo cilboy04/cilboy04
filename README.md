@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm AcilDev</h1>
 <h3 align="center">こんにちは。私はインドネシアの開発者です。</h3>
 
-<h1 align="center">👋 Ngoding Dulu, Jagonya Belakangan!</h1>
+<h1 align="center">Ngoding Dulu, Jagonya Belakangan!</h1>
 
 <p align="center">
     <a href="https://youtube.com/@acilboy.?si=Grf54zTNacnIB8Xs">
@@ -44,9 +44,9 @@
   <img src="https://img.shields.io/badge/-Javascript-yellow?style=for-the-badge&logo=javascript" alt="JS" />
   <img src="https://img.shields.io/badge/-Docker-blue?style=for-the-badge&logo=docker" alt="Docker" />
 </p>
-
 ---
-
+<h3 align="left">Support:</h3>
+<p><a href="https://www.buymeacoffee.com/buycoffe"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="buycoffe" /></a><a href="https://ko-fi.com/ko-fi acil"> <img align="left" src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="ko-fi acil" /></a></p><br><br>
 <!---
 cilboy04/cilboy04 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
