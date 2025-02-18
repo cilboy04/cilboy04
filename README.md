@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @cilboy04
-  <h1 align="center">Hi 👋, I'm AcilDev</h1>
+<h1 align="center">Hi 👋, I'm AcilDev</h1>
 <h3 align="center">A passionate frontend developer from India</h3>
 
 - 🔭 I’m currently working on [exabytes](https://nazril.com/)
@@ -12,7 +12,7 @@
 
 - 💬 Ask me about **JavaScript, Python**
 
-- 📫 How to reach me **nazrilacil@gmail.com**
+- 📫 How to reach me **nazrilacil04@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
