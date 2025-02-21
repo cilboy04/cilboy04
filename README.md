@@ -17,7 +17,7 @@
 [![GitHub WidgetBox](https://github-widgetbox.vercel.app/api/profile?username=cilboy04&data=followers,repositories,stars,commits&theme=darkmode)](https://github.com/cilboy04)
 <p align="left"><img align="left" src="https://64.media.tumblr.com/a3058c9b74733fe5b019b38f11da6264/0b9e54110711438c-00/s540x810/e5d6607ba8928e93e699dd1456d533ca624e7fda.gif" width="200px"></p>
 <ul align="right">
-  <li align="left">&nbsp;&nbsp;&nbsp;&nbsp;👋 Hi, I’m A ...</li>
+  <li align="left">&nbsp;&nbsp;&nbsp;&nbsp;👋 Hi, I’m Acil</li>
   <li align="left">&nbsp;&nbsp;&nbsp;&nbsp;👨‍💻 Frontend Developer & ...</li>
   <li align="left">&nbsp;&nbsp;&nbsp;&nbsp;💞️ I’m looking for collaborations and making products ...</li>
    <li align="left">&nbsp;&nbsp;&nbsp;&nbsp;👯 I’m looking to collaborate on <a href="https://cuyanimelist.vercel.app/" target="_blank">Animelist</a> </li>
