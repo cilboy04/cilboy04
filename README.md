@@ -22,7 +22,7 @@
   <li align="left">&nbsp;&nbsp;&nbsp;&nbsp;💞️ I’m looking for collaborations and making products ...</li>
    <li align="left">&nbsp;&nbsp;&nbsp;&nbsp;👯 I’m looking to collaborate on <a href="https://cuyanimelist.vercel.app/" target="_blank">Animelist</a> </li>
 <li align="left">&nbsp;&nbsp;&nbsp;&nbsp;📧 My Business Email <a href="nazrilacil04@gmail.com" target="_blank">Gmai</a> </li>
-  <li align="left">&nbsp;&nbsp;&nbsp;&nbsp;Visit  <a href="https://www.vinodjangid.site/" target="_blank">Portfolio</a> to know more about me ...</li>
+  <li align="left">&nbsp;&nbsp;&nbsp;&nbsp;Visit  <a href="https://cilboy04.github.io/nazrilacilportofolio/" target="_blank">Portfolio</a> to know more about me ...</li>
 </ul>
 <br><br><br><br>
 
@@ -77,7 +77,7 @@
 
 <br><br>
   
-![](https://komarev.com/ghpvc/?username=your-github-vinodjangid07&color=blueviolet)
+![](https://komarev.com/ghpvc/?username=your-github-deaafrizal&color=blueviolet)
 
 ![](https://github-readme-stats.vercel.app/api?username=nazedev&theme=dark&hide_border=false&include_all_commits=false&count_private=false)
 
