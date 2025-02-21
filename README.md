@@ -1,52 +1,92 @@
-<h1 align="center">Hi 👋, I'm AcilDev</h1>
+<div align="center">
+<a href="https://youtube.com/c/Nazedev">
+    <img
+        src="https://readme-typing-svg.herokuapp.com?font=ShadowsIntoLightsize=50&duration=5500&color=f70787&background=FF673200&center=true&vCenter=true&lines=Hello,+I+am+AcilDev;Welcome+to+my+GitHub+😊"
+            alt="Typing SVG"
+        />
+    </a>
+</p>
+</div>
 <h3 align="center">こんにちは。私はインドネシアの開発者です。</h3>
 
 <h1 align="center">Ngoding Dulu, Jagonya Belakangan!</h1>
 
-<p align="center">
-    <a href="https://youtube.com/@acilboy.?si=Grf54zTNacnIB8Xs">
-      <img src="https://render.gitanimals.org/lines/deaafrizal?pet-id=657051833278790750" width="600" height="120" />
-    </a>
-</p>
 
-- 🔭 I’m currently working on [exabytes](https://nazril.com/)
+<a href="https://cilboy04.github.io/nazrilacilportofolio/" align="left"><img align="left" width="122" alt="Frame 21" src="https://i.pinimg.com/736x/22/2c/4f/222c4f79e59ba34b426851013bc94446.jpg"></a>
+<br><br>
+[![GitHub WidgetBox](https://github-widgetbox.vercel.app/api/profile?username=cilboy04&data=followers,repositories,stars,commits&theme=darkmode)](https://github.com/cilboy04)
+<p align="left"><img align="left" src="https://64.media.tumblr.com/a3058c9b74733fe5b019b38f11da6264/0b9e54110711438c-00/s540x810/e5d6607ba8928e93e699dd1456d533ca624e7fda.gif" width="200px"></p>
+<ul align="right">
+  <li align="left">&nbsp;&nbsp;&nbsp;&nbsp;👋 Hi, I’m A ...</li>
+  <li align="left">&nbsp;&nbsp;&nbsp;&nbsp;👨‍💻 Frontend Developer & ...</li>
+  <li align="left">&nbsp;&nbsp;&nbsp;&nbsp;💞️ I’m looking for collaborations and making products ...</li>
+   <li align="left">&nbsp;&nbsp;&nbsp;&nbsp;👯 I’m looking to collaborate on <a href="https://cuyanimelist.vercel.app/" target="_blank">Animelist</a> </li>
+<li align="left">&nbsp;&nbsp;&nbsp;&nbsp;📧 My Business Email <a href="nazrilacil04@gmail.com" target="_blank">Gmai</a> </li>
+  <li align="left">&nbsp;&nbsp;&nbsp;&nbsp;Visit  <a href="https://www.vinodjangid.site/" target="_blank">Portfolio</a> to know more about me ...</li>
+</ul>
+<br><br><br><br>
 
-- 👯 I’m looking to collaborate on [Website Animelist](https://cuyanimelist.vercel.app/)
+<p align="left"><img width="117" alt="Frame 24" src="https://i.pinimg.com/736x/df/66/82/df66822aeb602a6589d0c487eb5348b5.jpg"></p>
+<br>
 
-- 👨‍💻 All of my projects are available at [https://nazrilmhmmd.github.io/](https://nazrilmhmmd.github.io/)
 
-- 📝 I regularly write articles on [https://nazrilmhmmd.github.io/](https://nazrilmhmmd.github.io/)
 
-- 💬 Ask me about **JavaScript, Python**
 
-- 📫 How to reach me **nazrilacil04@gmail.com**
 
-<h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://dev.to/acildev" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="acildev" height="30" width="40" /></a>
-<a href="https://twitter.com/m_acilboy04" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="m_acilboy04" height="30" width="40" /></a>
+ <a href="https://www.linkedin.com/in/vinodjangid07/" target="_blank"><img src="https://github.com/vinodjangid07/vinodjangid07/assets/86096184/2282dd88-2225-45aa-992a-bec8fde0e788" alt="Linkdin" height="50" title="linkdin"></a>
+  <a href="mailto:infovinodjangid@gmail.com" target="_blank"><img src="https://github.com/vinodjangid07/vinodjangid07/assets/86096184/cbe4890a-aac0-465c-ba24-33458e9f8881" alt="Gmail" height="50" title="Gmail"></a>
+  <a href="https://twitter.com/Vinod_Jangid07" target="_blank"><img src="https://github.com/vinodjangid07/vinodjangid07/assets/86096184/80ca6f4f-01a3-40db-a50f-77bde71f13ad" alt="Twitter" height="50" title="Twitter"></a>
+ <a href="https://www.instagram.com/pexel_ui/" target="_blank"><img src="https://github.com/vinodjangid07/vinodjangid07/assets/86096184/1de75b52-f87e-4394-975f-755b198d3536" alt="Instagram" height="50" title="Instagram"></a>
+  <a href="https://uiverse.io/profile/vinodjangid07" target="_blank"><img src="https://github.com/vinodjangid07/vinodjangid07/assets/86096184/b07ceafc-8cc1-4e4d-a5b4-e1846c40f0c2" alt="uiverse" height="50" title="Uiverse"></a>
+ <a href="https://codepen.io/vinodjangid07" target="_blank"><img src="https://github.com/vinodjangid07/vinodjangid07/assets/86096184/85960e4e-546e-4b2e-a2f5-0b7ae0a2e15d" alt="Codepen" height="50" title="Codepen"></a>
+ <a href="https://www.vinodjangid.site/" target="_blank"><img src="https://github.com/vinodjangid07/vinodjangid07/assets/86096184/3a2a0e30-8369-4f1a-9788-95fa30ac2f36" alt="Portfolio" height="50" title="Portfolio"></a>
 </p>
+<br>
 
-<p align="center">
-  <img src=https://github-profile-trophy.vercel.app/?username=deaafrizal&theme=radical&margin-w=10&rank=A,AA,AAA,S,SS,SSS,?&row=2&column=3" alt="Trophies" />
-</p>
+<img width="137" alt="Frame 22" src="https://private-user-images.githubusercontent.com/86096184/305653163-96fc909c-2e49-4d81-8f7e-b46471d60e53.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDAxNjMwNTksIm5iZiI6MTc0MDE2Mjc1OSwicGF0aCI6Ii84NjA5NjE4NC8zMDU2NTMxNjMtOTZmYzkwOWMtMmU0OS00ZDgxLThmN2UtYjQ2NDcxZDYwZTUzLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjIxVDE4MzIzOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWVjZDk2MjU1MGVjNWI5YzYxYzkxNzljNGFlMWE2MzFiYjI2NDA2NGMzMzMzN2M0N2JkZjNhMTUyZWJmYTYxM2QmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.Dz9HhXHHPxAgnsIPydZU6y8sfRJI3uwwTrecVLAeeoY">
+<br><br><br>
 
-<p align="center">
-  <b>Engineer 🚀 | Developer🧑‍💻 | Tech Enthusiast 💡</b>
-</p>
+<img src="https://github.com/vinodjangid07/vinodjangid07/assets/86096184/ba7d4b8c-8fcf-43d4-8aaa-81977ca5d252" alt="HTML" height="50" title="HTML">
+<img src="https://github.com/vinodjangid07/vinodjangid07/assets/86096184/4e342502-fa63-4699-8f2d-06c5150171b4" alt="CSS" height="50" title="CSS">
+<img src="https://github.com/vinodjangid07/vinodjangid07/assets/86096184/9e6de8bd-99ad-4e43-a3c1-9f74b9f138ad" alt="Javascript" height="50" title="JS">
+<img src="https://github.com/vinodjangid07/vinodjangid07/assets/86096184/57cd976e-c49d-49b6-8dcc-038f23f1963e" alt="BOOTSTRAP" height="50" title="BOOTSTRAP">
+<img src="https://github.com/vinodjangid07/vinodjangid07/assets/86096184/821e31cf-ac55-411b-8972-fc64a5485612" alt="REACT" height="50" title="REACT">
+<img src="https://github.com/vinodjangid07/vinodjangid07/assets/86096184/e82354f3-ed3d-408b-8738-30d4c518610b" alt="NODEJS" height="50" title="NODE JS">
 
-<h3 align="left">Languages:</h3>
-<p align="center">
-  <img src="https://img.shields.io/badge/-ESP32-blue?style=for-the-badge&logo=esp32" alt="ESP32" />
-  <img src="https://img.shields.io/badge/-FreeRTOS-blue?style=for-the-badge&logo=rtos" alt="FreeRTOS" />
-  <img src="https://img.shields.io/badge/-Raspberry%20Pi-red?style=for-the-badge&logo=raspberry-pi" alt="Raspberry Pi" />
-  <img src="https://img.shields.io/badge/-Python-green?style=for-the-badge&logo=python" alt="Python" />
-  <img src="https://img.shields.io/badge/-AI-yellow?style=for-the-badge&logo=ai" alt="AI" />
-  <img src="https://img.shields.io/badge/-Javascript-yellow?style=for-the-badge&logo=javascript" alt="JS" />
-  <img src="https://img.shields.io/badge/-Docker-blue?style=for-the-badge&logo=docker" alt="Docker" />
-</p>
-<h3 align="left">Tools:</h3>
-<p align="left"> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://reactnative.dev/" target="_blank" rel="noreferrer"> <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40" height="40"/> </a> </p>
+
+<br>
+<img src="https://github.com/vinodjangid07/vinodjangid07/assets/86096184/8b59783d-a52c-4be4-9f00-f791057d4e0b" alt="FIGMA" height="50" title="FIGMA">
+<img src="https://github.com/vinodjangid07/vinodjangid07/assets/86096184/24d19823-001d-4c8a-bb35-d0e3b3bfc433" alt="PS" height="50" title="PHOTOSHOP">
+<img src="https://github.com/vinodjangid07/vinodjangid07/assets/86096184/8364f96d-fbf3-46ae-a874-2ac7033f5a16" alt="AI" height="50" title="ADOBE ILLUSTRATOR">
+<img src="https://github.com/vinodjangid07/vinodjangid07/assets/86096184/c7e0c531-67f8-4bf8-9950-c61302c2b848" alt="CANVA" height="50" title="CANVA">
+<br>
+<img src="https://github.com/vinodjangid07/vinodjangid07/assets/86096184/bd7bc243-8e54-4a12-97b7-593e4b860bc4" alt="GITHUB" height="50" title="GITHUB">
+<img src="https://github.com/vinodjangid07/vinodjangid07/assets/86096184/259907ba-c4ff-4fa3-9d49-6827409fcd4b" alt="GIT" height="50" title="GIT">
+<img src="https://github.com/vinodjangid07/vinodjangid07/assets/86096184/0fdebf20-d402-42ae-bc7d-5650a5ddc0fb" alt="NETLIFY" height="50" title="NETLIFY">
+<br>
+<img src="https://github.com/vinodjangid07/vinodjangid07/assets/86096184/41752fdd-f8ad-4e92-b263-779fe928da92" alt="C" height="50" title="C">
+<img src="https://github.com/vinodjangid07/vinodjangid07/assets/86096184/086f2661-6998-4569-8c35-852c4254c53a" alt="CPP" height="50" title="C++">
+
+<br><br>
+<img width="150" alt="SUPPORTMe 21" src="https://github.com/vinodjangid07/vinodjangid07/assets/86096184/d2bd3af3-a9c0-404c-8f98-97704b39a19c">
+<br><br>
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/I2I2VPYED)
+<br><br>
+<img align="left" width="156" alt="Frame 23" src="https://github.com/vinodjangid07/vinodjangid07/assets/86096184/398dfbb4-ca41-4b39-98ba-76f03ca76bbe">
+
+<br><br>
+  
+![](https://komarev.com/ghpvc/?username=your-github-vinodjangid07&color=blueviolet)
+
+![](https://github-readme-stats.vercel.app/api?username=nazedev&theme=dark&hide_border=false&include_all_commits=false&count_private=false)
+
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=deaafrizal&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+
+
+### 🔝 Top Contributed Repo
+![](https://github-contributor-stats.vercel.app/api?username=nazedev&limit=5&theme=dark&combine_all_yearly_contributions=true)
+
 
 <h3 align="left">Support:</h3>
 <p><a href="https://www.buymeacoffee.com/buycoffe"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="buycoffe" /></a><a href="https://ko-fi.com/ko-fi acil"> <img align="left" src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="ko-fi acil" /></a></p><br><br>
