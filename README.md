@@ -77,7 +77,7 @@
 
 <br><br>
   
-![](https://komarev.com/ghpvc/?username=your-github-deaafrizal&color=blueviolet)
+![](https://komarev.com/ghpvc/?username=your-github-vinodjangid07&color=blueviolet)
 
 ![](https://github-readme-stats.vercel.app/api?username=nazedev&theme=dark&hide_border=false&include_all_commits=false&count_private=false)
 
