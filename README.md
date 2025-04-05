@@ -43,9 +43,8 @@
 </p>
 <br>
 
-<img width="137" alt="Frame 22" src="https://private-user-images.githubusercontent.com/86096184/305653163-96fc909c-2e49-4d81-8f7e-b46471d60e53.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDAxNjMwNTksIm5iZiI6MTc0MDE2Mjc1OSwicGF0aCI6Ii84NjA5NjE4NC8zMDU2NTMxNjMtOTZmYzkwOWMtMmU0OS00ZDgxLThmN2UtYjQ2NDcxZDYwZTUzLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjIxVDE4MzIzOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWVjZDk2MjU1MGVjNWI5YzYxYzkxNzljNGFlMWE2MzFiYjI2NDA2NGMzMzMzN2M0N2JkZjNhMTUyZWJmYTYxM2QmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.Dz9HhXHHPxAgnsIPydZU6y8sfRJI3uwwTrecVLAeeoY">
-<br><br><br>
-
+<img width="137" alt="Frame 22" src="https://private-user-images.githubusercontent.com/86096184/305653163-96fc909c-2e49-4d81-8f7e-b46471d60e53.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM4NjI0NjIsIm5iZiI6MTc0Mzg2MjE2MiwicGF0aCI6Ii84NjA5NjE4NC8zMDU2NTMxNjMtOTZmYzkwOWMtMmU0OS00ZDgxLThmN2UtYjQ2NDcxZDYwZTUzLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA0MDUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNDA1VDE0MDkyMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWE3YTZmYjRlNGI4MzBlN2VlYmM0MjE1ODI3MjE2MTliODJlNDUwNGRjZGVjYmFjYjBiMmI5MmUxMzg0MzFhMTMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.CbDepivnbNzD4qqCy4JntmoAIBGgrywOdUqtH9OWjBs">
+<br>
 <img src="https://github.com/vinodjangid07/vinodjangid07/assets/86096184/ba7d4b8c-8fcf-43d4-8aaa-81977ca5d252" alt="HTML" height="50" title="HTML">
 <img src="https://github.com/vinodjangid07/vinodjangid07/assets/86096184/4e342502-fa63-4699-8f2d-06c5150171b4" alt="CSS" height="50" title="CSS">
 <img src="https://github.com/vinodjangid07/vinodjangid07/assets/86096184/9e6de8bd-99ad-4e43-a3c1-9f74b9f138ad" alt="Javascript" height="50" title="JS">
@@ -78,13 +77,13 @@
   
 ![](https://komarev.com/ghpvc/?username=your-github-vinodjangid07&color=blueviolet)
 
-![](https://github-readme-stats.vercel.app/api?username=nazedev&theme=dark&hide_border=false&include_all_commits=false&count_private=false)
+![](https://github-readme-stats.vercel.app/api?username=cilboy04&theme=dark&hide_border=false&include_all_commits=false&count_private=false)
 
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=deaafrizal&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
 
 ### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=nazedev&limit=5&theme=dark&combine_all_yearly_contributions=true)
+![](https://github-contributor-stats.vercel.app/api?username=cilboy04&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
 
 <h3 align="left">Support:</h3>
