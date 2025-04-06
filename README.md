@@ -46,7 +46,7 @@
 </p>
 <br>
 
-<img width="137" alt="Frame 22" src="https://private-user-images.githubusercontent.com/86096184/305653163-96fc909c-2e49-4d81-8f7e-b46471d60e53.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM5NjEwNTksIm5iZiI6MTc0Mzk2MDc1OSwicGF0aCI6Ii84NjA5NjE4NC8zMDU2NTMxNjMtOTZmYzkwOWMtMmU0OS00ZDgxLThmN2UtYjQ2NDcxZDYwZTUzLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA0MDYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNDA2VDE3MzIzOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWRlMzRkN2UxMzE2ODU0YTMzZTQ5YWI5NTJhZjhjNGRjZmY3ODQ4MTNkYzE1NWRmYTQwOTU3ODJiODg1NTkyN2UmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.ftZ0PkOyWBkTdsh1jhDG4Xg-ZJiQ6k1gSMdSH8W4hWc">
+<img width="137" alt="Frame 22" src="https://raw.githubusercontent.com/cilboy04/cilboy04/4beeaceeba94086be8604264dad91872b7d3453f/techstack.png">
 <br>
 <img src="https://github.com/vinodjangid07/vinodjangid07/assets/86096184/ba7d4b8c-8fcf-43d4-8aaa-81977ca5d252" alt="HTML" height="50" title="HTML">
 <img src="https://github.com/vinodjangid07/vinodjangid07/assets/86096184/4e342502-fa63-4699-8f2d-06c5150171b4" alt="CSS" height="50" title="CSS">
