@@ -9,32 +9,31 @@
 </div>
 <h3 align="center">こんにちは。私はインドネシアの開発者です。</h3>
 
-<h1 align="center">Ngoding Dulu, Jagonya Belakangan!</h1>
 
 
-<a href="https://cilboy04.github.io/nazrilacilportofolio/" align="left"><img align="left" width="122" alt="Frame 21" src="https://i.pinimg.com/736x/22/2c/4f/222c4f79e59ba34b426851013bc94446.jpg"></a>
 <br><br>
 [![GitHub WidgetBox](https://github-widgetbox.vercel.app/api/profile?username=cilboy04&data=followers,repositories,stars,commits&theme=darkmode)](https://github.com/cilboy04)
 <p align="left"><img align="left" src="https://64.media.tumblr.com/a3058c9b74733fe5b019b38f11da6264/0b9e54110711438c-00/s540x810/e5d6607ba8928e93e699dd1456d533ca624e7fda.gif" width="200px"></p>
 <ul align="right">
   <li align="left">&nbsp;&nbsp;&nbsp;&nbsp;👋 Hi, I’m Acil</li>
   <li align="left">&nbsp;&nbsp;&nbsp;&nbsp;👨‍💻 Frontend Developer & ...</li>
-  <li align="left">&nbsp;&nbsp;&nbsp;&nbsp;💞️ I’m looking for collaborations and making products ...</li>
-   <li align="left">&nbsp;&nbsp;&nbsp;&nbsp;👯 I’m looking to collaborate on <a href="https://cuyanimelist.vercel.app/" target="_blank">Animelist</a> </li>
-<li align="left">&nbsp;&nbsp;&nbsp;&nbsp;📧 My Business Email <a href="nazrilacil04@gmail.com" target="_blank">Gmai</a> </li>
+  <li align="left">&nbsp;&nbsp;&nbsp;&nbsp;🎁 Open source enthusiast.</li>
+   <li align="left">&nbsp;&nbsp;&nbsp;&nbsp;👯 collaborate on <a href="https://cuyanimelist.vercel.app/" target="_blank">Animelist</a> </li>
+<li align="left">&nbsp;&nbsp;&nbsp;&nbsp;📧 My Email <a href="nazrilacil04@gmail.com" target="_blank">Gmail</a> </li>
   <li align="left">&nbsp;&nbsp;&nbsp;&nbsp;Visit  <a href="https://cilboy04.github.io/nazrilacilportofolio/" target="_blank">Portfolio</a> to know more about me ...</li>
     <li align="left">&nbsp;&nbsp;&nbsp;&nbsp;💰 Donate For Me
     <a href="https://saweria.co/acil04" target="_blank">[Saweria]()</a>
 </li>
 </ul>
-<br><br><br><br>
-
+<br><br>
 <p align="left"><img width="117" alt="Frame 24" src="https://i.pinimg.com/736x/df/66/82/df66822aeb602a6589d0c487eb5348b5.jpg"></p>
-<br>
 
 
+[![Github Follow](https://img.shields.io/github/followers/HwangTaehyun?label=Follow%20Me&style=social)](https://github.com/cilboy04)
 
+<strong>Today's developer quotes</strong>
 
+[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=swift&border=true)](https://github.com/piyushsuthar/github-readme-quotes)
 
 <p align="left">
   <a href="nazrilacil04@gmail.com" target="_blank"><img src="https://github.com/vinodjangid07/vinodjangid07/assets/86096184/cbe4890a-aac0-465c-ba24-33458e9f8881" alt="Gmail" height="50" title="Gmail"></a>
@@ -53,21 +52,17 @@
 <img src="https://github.com/vinodjangid07/vinodjangid07/assets/86096184/9e6de8bd-99ad-4e43-a3c1-9f74b9f138ad" alt="Javascript" height="50" title="JS">
 <img src="https://github.com/vinodjangid07/vinodjangid07/assets/86096184/57cd976e-c49d-49b6-8dcc-038f23f1963e" alt="BOOTSTRAP" height="50" title="BOOTSTRAP">
 <img src="https://github.com/vinodjangid07/vinodjangid07/assets/86096184/821e31cf-ac55-411b-8972-fc64a5485612" alt="REACT" height="50" title="REACT">
+<br>
 <img src="https://github.com/vinodjangid07/vinodjangid07/assets/86096184/e82354f3-ed3d-408b-8738-30d4c518610b" alt="NODEJS" height="50" title="NODE JS">
-
-
-<br>
-<img src="https://github.com/vinodjangid07/vinodjangid07/assets/86096184/8b59783d-a52c-4be4-9f00-f791057d4e0b" alt="FIGMA" height="50" title="FIGMA">
-<img src="https://github.com/vinodjangid07/vinodjangid07/assets/86096184/24d19823-001d-4c8a-bb35-d0e3b3bfc433" alt="PS" height="50" title="PHOTOSHOP">
-<img src="https://github.com/vinodjangid07/vinodjangid07/assets/86096184/8364f96d-fbf3-46ae-a874-2ac7033f5a16" alt="AI" height="50" title="ADOBE ILLUSTRATOR">
 <img src="https://github.com/vinodjangid07/vinodjangid07/assets/86096184/c7e0c531-67f8-4bf8-9950-c61302c2b848" alt="CANVA" height="50" title="CANVA">
-<br>
 <img src="https://github.com/vinodjangid07/vinodjangid07/assets/86096184/bd7bc243-8e54-4a12-97b7-593e4b860bc4" alt="GITHUB" height="50" title="GITHUB">
 <img src="https://github.com/vinodjangid07/vinodjangid07/assets/86096184/259907ba-c4ff-4fa3-9d49-6827409fcd4b" alt="GIT" height="50" title="GIT">
-<img src="https://github.com/vinodjangid07/vinodjangid07/assets/86096184/0fdebf20-d402-42ae-bc7d-5650a5ddc0fb" alt="NETLIFY" height="50" title="NETLIFY">
 <br>
-<img src="https://github.com/vinodjangid07/vinodjangid07/assets/86096184/41752fdd-f8ad-4e92-b263-779fe928da92" alt="C" height="50" title="C">
+<div>  
 <img src="https://github.com/vinodjangid07/vinodjangid07/assets/86096184/086f2661-6998-4569-8c35-852c4254c53a" alt="CPP" height="50" title="C++">
+<img src="https://raw.githubusercontent.com/cilboy04/cilboy04/refs/heads/main/20250407_020840.png" alt="Python" height="50" padding="0" title="PYTHON">
+</div>
+<br>
 
 <br><br>
 <img width="150" alt="SUPPORTMe 21" src="https://github.com/vinodjangid07/vinodjangid07/assets/86096184/d2bd3af3-a9c0-404c-8f98-97704b39a19c">
