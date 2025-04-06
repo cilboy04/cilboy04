@@ -23,6 +23,9 @@
    <li align="left">&nbsp;&nbsp;&nbsp;&nbsp;👯 I’m looking to collaborate on <a href="https://cuyanimelist.vercel.app/" target="_blank">Animelist</a> </li>
 <li align="left">&nbsp;&nbsp;&nbsp;&nbsp;📧 My Business Email <a href="nazrilacil04@gmail.com" target="_blank">Gmai</a> </li>
   <li align="left">&nbsp;&nbsp;&nbsp;&nbsp;Visit  <a href="https://cilboy04.github.io/nazrilacilportofolio/" target="_blank">Portfolio</a> to know more about me ...</li>
+    <li align="left">&nbsp;&nbsp;&nbsp;&nbsp;💰 Donate For Me
+    <a href="https://saweria.co/acil04" target="_blank">[Saweria]()</a>
+</li>
 </ul>
 <br><br><br><br>
 
