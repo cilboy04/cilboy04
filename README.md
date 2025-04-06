@@ -77,7 +77,7 @@
   
 ![](https://komarev.com/ghpvc/?username=your-github-vinodjangid07&color=blueviolet)
 
-![](https://github-readme-stats.vercel.app/api?username=cilboy04&theme=dark&hide_border=false&include_all_commits=false&count_private=false)
+![](https://github-readme-stats.vercel.app/api?username=cilboy04&hide=prs&count_private=true&include_all_commits=true&show_icons=true&theme=swift)
 
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=deaafrizal&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
