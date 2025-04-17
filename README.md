@@ -12,7 +12,7 @@
 
 
 <br><br>
-[![GitHub WidgetBox](https://github-widgetbox.vercel.app/api/profile?username=cilboy04&data=followers,repositories,stars,commits&theme=darkmode)](https://github.com/cilboy04)
+[![GitHub WidgetBox](https://github-widgetbox.vercel.app/api/profile?username=nazrilacil&data=followers,repositories,stars,commits&theme=darkmode)](https://github.com/cilboy04)
 <p align="left"><img align="left" src="https://64.media.tumblr.com/a3058c9b74733fe5b019b38f11da6264/0b9e54110711438c-00/s540x810/e5d6607ba8928e93e699dd1456d533ca624e7fda.gif" width="200px"></p>
 <ul align="right">
   <li align="left">&nbsp;&nbsp;&nbsp;&nbsp;👋 Hi, I’m Acil</li>
@@ -60,7 +60,7 @@
 <br>
 <div>  
 <img src="https://github.com/vinodjangid07/vinodjangid07/assets/86096184/086f2661-6998-4569-8c35-852c4254c53a" alt="CPP" height="50" title="C++">
-<img src="https://raw.githubusercontent.com/cilboy04/cilboy04/refs/heads/main/20250407_020840.png" alt="Python" height="50" padding="0" title="PYTHON">
+<img src="https://raw.githubusercontent.com/nazrilacil/cilboy04/refs/heads/main/20250407_020840.png" alt="Python" height="50" padding="0" title="PYTHON">
 </div>
 <br>
 
@@ -75,13 +75,13 @@
   
 ![](https://komarev.com/ghpvc/?username=your-github-vinodjangid07&color=blueviolet)
 
-![](https://github-readme-stats.vercel.app/api?username=cilboy04&hide=prs&count_private=true&include_all_commits=true&show_icons=true&theme=swift)
+![](https://github-readme-stats.vercel.app/api?username=nazrilacil&hide=prs&count_private=true&include_all_commits=true&show_icons=true&theme=swift)
 
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=cilboy04&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=nazrilacil&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
 
 ### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=cilboy04&limit=5&theme=dark&combine_all_yearly_contributions=true)
+![](https://github-contributor-stats.vercel.app/api?username=nazrilacil&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
 
 <h3 align="left">Support:</h3>
