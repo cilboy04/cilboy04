@@ -1,5 +1,5 @@
 <div align="center">
-<a href="https://youtube.com/c/Nazedev">
+<a href="https://youtube.com/c/nazrilacil">
     <img
         src="https://readme-typing-svg.herokuapp.com?font=ShadowsIntoLightsize=50&duration=5500&color=f70787&background=FF673200&center=true&vCenter=true&lines=Hello,+I+am+AcilDev;Welcome+to+my+GitHub+😊"
             alt="Typing SVG"
@@ -20,7 +20,7 @@
   <li align="left">&nbsp;&nbsp;&nbsp;&nbsp;🎁 Open source enthusiast.</li>
    <li align="left">&nbsp;&nbsp;&nbsp;&nbsp;👯 collaborate on <a href="https://cuyanimelist.vercel.app/" target="_blank">Animelist</a> </li>
 <li align="left">&nbsp;&nbsp;&nbsp;&nbsp;📧 My Email <a href="nazrilacil04@gmail.com" target="_blank">Gmail</a> </li>
-  <li align="left">&nbsp;&nbsp;&nbsp;&nbsp;Visit  <a href="https://cilboy04.github.io/nazrilacilportofolio/" target="_blank">Portfolio</a> to know more about me ...</li>
+  <li align="left">&nbsp;&nbsp;&nbsp;&nbsp;Visit  <a href="https://nazrilacil.github.io" target="_blank">Portfolio</a> to know more about me ...</li>
     <li align="left">&nbsp;&nbsp;&nbsp;&nbsp;💰 Donate For Me
     <a href="https://saweria.co/acil04" target="_blank">[Saweria]()</a>
 </li>
@@ -38,10 +38,10 @@
 <p align="left">
   <a href="nazrilacil04@gmail.com" target="_blank"><img src="https://github.com/vinodjangid07/vinodjangid07/assets/86096184/cbe4890a-aac0-465c-ba24-33458e9f8881" alt="Gmail" height="50" title="Gmail"></a>
   <a href="https://twitter.com/M_AcilBoy04" target="_blank"><img src="https://github.com/vinodjangid07/vinodjangid07/assets/86096184/80ca6f4f-01a3-40db-a50f-77bde71f13ad" alt="Twitter" height="50" title="Twitter"></a>
- <a href="https://www.instagram.com/achylslwly/?igsh=eHpscGxhcWNoaHpp#" target="_blank"><img src="https://github.com/vinodjangid07/vinodjangid07/assets/86096184/1de75b52-f87e-4394-975f-755b198d3536" alt="Instagram" height="50" title="Instagram"></a>
-  <a href="https://www.tiktok.com/@acildesu?lang=en" target="_blank"><img src="https://purepng.com/public/uploads/large/tik-tok-logo-6fh.png" alt="tiktok" height="50" title="Tiktok"></a>
+ <a href="https://www.instagram.com/nazrilacil_?igsh=eHpscGxhcWNoaHpp" target="_blank"><img src="https://github.com/vinodjangid07/vinodjangid07/assets/86096184/1de75b52-f87e-4394-975f-755b198d3536" alt="Instagram" height="50" title="Instagram"></a>
+  <a href="https://www.tiktok.com/@nazrilacil?lang=en" target="_blank"><img src="https://purepng.com/public/uploads/large/tik-tok-logo-6fh.png" alt="tiktok" height="50" title="Tiktok"></a>
  <a href="https://codepen.io/icell-the-styleful" target="_blank"><img src="https://github.com/vinodjangid07/vinodjangid07/assets/86096184/85960e4e-546e-4b2e-a2f5-0b7ae0a2e15d" alt="Codepen" height="50" title="Codepen"></a>
- <a href="https://cilboy04.github.io/nazrilacilportofolio/" target="_blank"><img src="https://github.com/cilboy04/nazrilacilportofolio/blob/main/src/png/main-favicon.png?raw=true" alt="Portfolio" height="50" title="Portfolio"></a>
+ <a href="https://nazrilacil.github.io" target="_blank"><img src="https://github.com/cilboy04/nazrilacilportofolio/blob/main/src/png/main-favicon.png?raw=true" alt="Portfolio" height="50" title="Portfolio"></a>
 </p>
 <br>
 
